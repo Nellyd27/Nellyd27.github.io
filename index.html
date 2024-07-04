@@ -7,40 +7,44 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">LockByte</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">LockByte</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
-    <header class="jumbotron">
-        <h1>Comprehensive Cyber Security Solutions</h1>
-        <p class="lead">Protecting your digital assets with cutting-edge technology</p>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+            <h1 class="display-4">Comprehensive Cyber Security Solutions</h1>
+            <p class="lead">Protecting your digital assets with cutting-edge technology</p>
+        </div>
     </header>
     <section id="services" class="services container">
         <h2 class="text-center">Our Services</h2>
         <div class="row">
             <div class="col-md-4 service-item">
-                <img src="cybersecurity.jpg" alt="Cybersecurity">
+                <img src="cybersecurity.jpg" alt="Cybersecurity" class="img-fluid">
                 <h5>Cybersecurity</h5>
                 <p>Protect your digital assets with our advanced cybersecurity solutions.</p>
             </div>
             <div class="col-md-4 service-item">
-                <img src="server-maintenance.jpg" alt="Server Maintenance">
+                <img src="server-maintenance.jpg" alt="Server Maintenance" class="img-fluid">
                 <h5>Server Maintenance</h5>
                 <p>Ensure your servers are running smoothly with our maintenance services.</p>
             </div>
             <div class="col-md-4 service-item">
-                <img src="database-management.jpg" alt="Database Management">
+                <img src="database-management.jpg" alt="Database Management" class="img-fluid">
                 <h5>Database Management</h5>
                 <p>Optimize your data storage and retrieval with our database management solutions.</p>
             </div>
@@ -49,20 +53,22 @@
     <section id="contact" class="contact-info container">
         <h2 class="text-center">Contact Us</h2>
         <div class="row">
-            <div class="col-md-6 offset-md-3">
+            <div class="col-md-6 offset-md-3 text-center">
                 <p><strong>NIM:</strong> B11.2022.07702</p>
                 <p><strong>Name:</strong> Nelly Dwi Octaviani</p>
                 <p><strong>Email:</strong> nellydwi027@gmail.com</p>
-                <p><strong>Photo:</strong></p>
                 <img src="nelly-photo.jpg" alt="Nelly Dwi Octaviani" class="img-fluid rounded-circle" width="150">
             </div>
         </div>
     </section>
     <footer>
-        <p>&copy; 2024 LockByte. All rights reserved.</p>
+        <div class="container text-center">
+            <p>&copy; 2024 LockByte. All rights reserved.</p>
+        </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>

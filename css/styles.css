@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight shadow for better readability */
+}
+
+.navbar-brand, .nav-link {
+    color: #000 !important;
+}
+
+.jumbotron {
+    background: url('../images/tech-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+    margin-top: 56px; /* Adjust for fixed navbar height */
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.services, .contact-info {
+    padding: 60px 0;
+}
+
+.service-item {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px; /* Slightly rounded corners for images */
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #ECF0F1;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 20px;
+}

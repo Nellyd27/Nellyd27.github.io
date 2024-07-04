@@ -13,7 +13,7 @@ body {
 }
 
 .jumbotron {
-    background: url('../images/tech-background.jpg') no-repeat center center;
+    background: url('tech-background.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;

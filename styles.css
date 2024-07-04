@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 .navbar {
@@ -8,21 +9,34 @@ body {
 }
 
 .jumbotron {
-    background: #f8f9fa;
-    color: #343a40;
+    background: #1f1f1f;
+    color: #ffffff;
 }
 
-h2 {
+h2, h3 {
     color: #007bff;
 }
 
 #services h3 {
-    color: #0056b3;
+    color: #007bff;
 }
 
 footer {
-    background: #f8f9fa;
-    color: #343a40;
+    background: #1f1f1f;
+    color: #ffffff;
+}
+
+.text-dark {
+    color: #000000 !important;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 @media (max-width: 768px) {
